@@ -43,11 +43,25 @@
 // }
 
 ///====Counter=====
-import { Counter } from "./Counter";  
+// import { Counter } from "./Counter";  
  
-export function ShildPass()
+// export function ShildPass()
 
-{
-    return <Counter/>
+// {
+//     return <Counter/>
 
+// }
+
+
+//////=====cundition=====
+export function AvengerUser(props){
+    
+
+    return<>
+<h1>Welocome steve rogers</h1>
+<button type="button" onClick={props.clickdetail}>log out</button>
+{isAdmin && <button type="button">delete</button>}
+
+    </>
 }
+
