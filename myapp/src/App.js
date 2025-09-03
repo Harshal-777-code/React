@@ -54,14 +54,28 @@
 
 
 //////=====cundition=====
-export function AvengerUser(props){
+// export function AvengerUser(props){
     
 
-    return<>
-<h1>Welocome steve rogers</h1>
-<button type="button" onClick={props.clickdetail}>log out</button>
-{isAdmin && <button type="button">delete</button>}
+//     return<>
+// <h1>Welocome steve rogers</h1>
+// <button type="button" onClick={props.clickdetail}>log out</button>
+// {isAdmin && <button type="button">delete</button>}
 
-    </>
-}
+//     </>
+// }
+
+
+////=======img====
+import { image } from "./image.js";  
+ 
+ export function ShieldPass()
+
+ {
+     return<>
+     
+     <Image/>
+     </>
+    
+ }
 
