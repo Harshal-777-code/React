@@ -2,7 +2,7 @@
 
 import Currency from './currency';
 
-function App() {
+ function App() {
   return (
   
       <Currency />
